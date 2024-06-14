@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #00274C;
+}
+
+.container .main-card {
+    background: transparent;
+    border: none;
+}
+
+.school-title {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    color: white;
+}
+
+.border-title {
+    border: 1px solid #FFFFFF;
+    margin-top: -6px;
+}
+
+#title-below {
+    font-family: cinzel,serif;
+    font-weight: normal;
+    font-size: 12.5px;
+    letter-spacing: 0.4em;
+}
+
+#logout {
+    color: white;
+    text-decoration: none;
+}
+
+.row-header {
+    height: auto;
+}
+
+div.nav-col {
+    padding: 0;
+    display: inline-block;
+    width: auto;
+}
+
+div.nav-col a{
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+    color: #00274C;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#profile-nav:hover {
+    background-color: #607274;
+    color: white;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.container-header {
+    background-image: url("../images/LoginBackground.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 65vh;
+}
+
+#selectForm {
+    padding: 10px;
+    color: #00274C;
+    border: 1px solid #00274C;
+}
+
+#selectForm:focus {
+    border-color: #00274C;
+    box-shadow: 0 0 0 0.15rem rgba(0, 0, 139, 0.5);
+}
+
+.container .main-card .card-body .row .col .certificate-card {
+    height: 60vh;
+    background-color:#0C356A;
+    color: white;
+}
+
+.container .main-card .card-body .row .col .form137-card {
+    height: 60vh;
+    background-color: #11235A;
+    color: white;
+}
+
+.container .main-card .card-body .row .col .goodmoral-card {
+    height: 60vh;
+    background-color: #00274C;
+    color: white;
+}
+
+.container .main-card .card-body .row .col .others-card {
+    height: 60vh;
+    background-color: #211C6A;
+    color: white;
+}
+
+@media only screen and (max-width: 768px) {
+    #navbar-logo {
+        display: none !important;
+    }
+    
+    #section-text {
+        margin-top: -10vh;
+    }
+
+    nav div.container{
+        margin-left: -18vh;
+    }
+
+    div.nav-col {
+        display: flex !important;
+        text-align: center !important;
+        justify-content: center !important;
+        margin: 0 !important;
+    }
+    
+    #logout-container {
+        margin-left: 10vh !important;
+    }
+    
+    #title-below {
+        font-family: cinzel,serif;
+        font-weight: normal;
+        font-size: 12.5px;
+        letter-spacing: 0.3em;
+    }
+    
+}

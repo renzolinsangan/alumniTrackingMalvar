@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: transparent;
+    border-bottom: 1px solid #ccc;
+}
+
+.navbar .container-fluid span {
+    font-weight: bold;
+}
+
+.navbar .navbar-text {
+    font-size: 20px;
+}
+
+.exit {
+    cursor: pointer;
+    color: #00274C;
+}
+
+.container .main-card {
+    border-top: 15px solid #00274C;
+}
+
+#input-control:focus, #select-control:focus, #multipleSelect:focus {
+    border: 1px solid #00274C;
+    box-shadow: none;
+}
+
+#input-radio {
+    appearance: none;
+            -webkit-appearance: none;
+    width: 25px;
+    height: 25px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    position: relative;
+    outline: none;
+    cursor: pointer;
+    background-color: #fff;
+    margin-right: 5px;
+}
+
+#input-radio:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-color: #fff;
+    border-radius: 4px; /* Keep it square */
+}
+
+#input-radio:checked::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #00274C;
+    border-radius: 4px;
+}
+
+#multipleSelect {
+    max-width: 100%;
+    width: 100%;
+}
+
+.modal .modal-header {
+    border: none;
+}
+
+.modal .modal-body .body-icon, .body-text {
+    justify-content: center;
+    text-align: center;
+}
+
+.modal .modal-body .body-icon {
+    color: red;
+    font-size: 20vh;
+    margin-bottom: -20px;
+    margin-top: -40px;
+}
+
+.modal .modal-footer {
+    border: none;
+    justify-content: center;
+    text-align: center;
+}
+
+.modal .modal-footer .yes-button {
+    background-color:  red;
+    border: 1px solid white;
+    color: white;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.modal .modal-dialog .modal-body .form-control {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0;
+    padding: 10px;
+}
+
+.modal .modal-dialog .modal-body .form-control:focus {
+    box-shadow: none;
+    border-bottom: 2px solid #00274C;
+}
+
+.modal .modal-dialog .question-footer {
+    border: none;
+    justify-content: end;
+    text-align: end;
+}

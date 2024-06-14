@@ -1,0 +1,56 @@
+.footer {
+    background-color: #00274C;
+    padding: 20px;
+    display: flex;
+  }
+
+  .footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contact-header,
+  .email-header,
+  .address-header,
+  .quick-link,
+  .survey-header,
+  .request-header {
+    color: white;
+    font-weight: bold;
+  }
+
+  .footer .container .row .col p,
+  li {
+    color: white;
+    font-size: 13px;
+  }
+
+  .footer .footer-container .row .col a {
+    text-decoration: none;
+  }
+
+  .footer .footer-container .row .col a p {
+    margin-bottom: 5px;
+  }
+
+  .footer .footer-container .row .col a p:hover {
+    color: gold;
+    transition: 1s;
+  }
+
+  .footer .footer-container .row .col .studying:hover,
+  .footer .footer-container .row .col .working:hover{
+    color: gold;
+    transition: 1s;
+    cursor: pointer;
+  }
+
+  .footer .footer-container .row .col .certificateFooter:hover,
+  .footer .footer-container .row .col .form137Footer:hover,
+  .footer .footer-container .row .col .goodmoralFooter:hover,
+  .footer .footer-container .row .col .othersFooter:hover {
+    color: gold;
+    transition: 1s;
+    cursor: pointer;
+  }

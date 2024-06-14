@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #00274C;
+}
+
+.container .main-card {
+    background: transparent;
+    border: none;
+}
+
+.school-title {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    color: white;
+}
+
+.border-title {
+    border: 1px solid #FFFFFF;
+    margin-top: -6px;
+}
+
+#title-below {
+    font-family: cinzel,serif;
+    font-weight: normal;
+    font-size: 12.5px;
+    letter-spacing: 0.4em;
+}
+
+#logout {
+    color: white;
+    text-decoration: none;
+}
+
+.row-header {
+    height: auto;
+}
+
+div.nav-col {
+    padding: 0;
+    display: inline-block;
+    width: auto;
+}
+
+div.nav-col a{
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+    color: #00274C;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#profile-nav:hover {
+    background-color: #607274;
+    color: white;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.container-header {
+    background-image: url("../images/LoginBackground.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 65vh;
+}
+
+.container .main-card .card-body .title-card {
+    padding: 20px;
+}
+
+.container .main-card .card-body .title-card .card-body .request-button {
+    background-color: #00274C;
+    color: white;
+}
+
+.container .main-card .card-body .guidelines-card {
+    padding: 20px;
+}
+
+.container .main-card .card-body .guidelines-card .guideline-steps {
+    border: 1px solid #00274C;
+}
+
+.container .main-card .card-body .guidelines-card .guideline-steps .card-header {
+    border-bottom: 1px solid #00274C;
+    background-color: transparent;
+    padding: 10px;
+}
+
+.container .main-card .card-body .guidelines-card .guideline-steps .card-body ol li{
+    border: none;
+}
+
+.container .main-card .card-body .guidelines-card .guideline-steps .card-header h3 {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.modal .modal-dialog .modal-content .modal-header {
+    border: none;
+    margin-bottom: -20px;
+}
+
+.modal .modal-dialog .modal-content .modal-body .row .col a {
+    text-decoration: none;
+}
+
+.modal .modal-dialog .modal-content .modal-body .row .col .certificate-card{
+    height: 30vh;
+    background-color:#0C356A;
+    color: white;
+}
+
+.modal-dialog .modal-content .modal-body .row .col .certificate-card:hover {
+    background-color: darkblue;
+    color: white;
+}
+
+.modal .modal-dialog .modal-content .modal-body .row .col .form137-card {
+    height: 30vh;
+    background-color: #0174BE;
+    color: white;
+}
+
+.modal .modal-dialog .modal-content .modal-body .row .col .form137-card:hover {
+    background-color: #211C6A;
+    color: white;
+}
+
+.modal .modal-dialog .modal-content .modal-body .row .col .goodmoral-card {
+    height: 30vh;
+    background-color: darkblue;
+    color: white;
+}
+
+.modal .modal-dialog .modal-content .modal-body .row .col .goodmoral-card:hover {
+    background-color: #0C356A;
+    color: white;
+}
+
+.modal .modal-dialog .modal-content .modal-body .row .col .others-card {
+    height: 30vh;
+    background-color: #211C6A;
+    color: white;
+}
+
+.modal .modal-dialog .modal-content .modal-body .row .col .others-card:hover {
+    background-color: #0174BE;
+    color: white;
+}
+
+.swal-confirm-button {
+    background-color: #00274C !important; /* Important to override default styles */
+}
+
+#certificate-card, #form137-card, #goodmoral-card, #otherdocuments-card {
+    height: 55vh;
+}
+
+#certificate-card .card-header {
+    background-image: url(../images/certificate.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 25vh;
+}
+
+#goodmoral-card .card-header {
+    background-image: url(../images/goodmoral.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 25vh;
+}
+
+#form137-card .card-header {
+    background-image: url(../images/form137.jpg);
+    background-size: cover;
+    background-position: bottom;
+    height: 25vh;
+}
+
+#otherdocuments-card .card-header {
+    background-image: url(../images/otherdocuments.jpg);
+    background-size: cover;
+    background-position: bottom;
+    height: 25vh;
+}
+
+@media only screen and (max-width: 768px) {
+    #navbar-logo {
+        display: none !important;
+    }
+    
+    #section-text {
+        margin-top: -10vh;
+    }
+
+    nav div.container{
+        margin-left: -18vh;
+    }
+
+    div.nav-col {
+        display: flex !important;
+        text-align: center !important;
+        justify-content: center !important;
+        margin: 0 !important;
+    }
+    
+    #logout-container {
+        margin-left: 10vh !important;
+    }
+    
+    #title-below {
+        font-family: cinzel,serif;
+        font-weight: normal;
+        font-size: 12.5px;
+        letter-spacing: 0.3em;
+    }
+    
+}

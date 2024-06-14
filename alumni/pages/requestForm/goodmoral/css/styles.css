@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #00274C;
+}
+
+.container .main-card {
+    background: transparent;
+    border: none;
+}
+
+.school-title {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    color: white;
+}
+
+.border-title {
+    border: 1px solid #FFFFFF;
+    margin-top: -6px;
+}
+
+#title-below {
+    font-family: cinzel,serif;
+    font-weight: normal;
+    font-size: 12.5px;
+    letter-spacing: 0.4em;
+}
+
+.container .main-card .card-body .goodmoral-title .card-body .back-button {
+    background-color: #00274C;
+    color: white;
+}
+
+.container .main-card .card-body .goodmoral-body .card-body .body label {
+    font-size: 25px;
+}
+
+.container .main-card .card-body .goodmoral-body .card-body .body .col .row .disabled {
+    padding: 10px;
+    background-color: #eee;
+}
+
+.container .main-card .card-body .goodmoral-body .card-body .body .col .row .disabled:focus {
+    border-color: #00274C;
+    box-shadow: 0 0 0 0.15rem rgba(0, 0, 139, 0.5);
+}
+
+.container .main-card .card-body .goodmoral-body .card-body .row .col .row .purpose {
+    resize: none;
+    overflow-x: hidden;
+}
+
+.container .main-card .card-body .goodmoral-body .card-body .row .col .row .purpose:focus {
+    border-color: #00274C;
+    box-shadow: 0 0 0 0.15rem rgba(0, 0, 139, 0.5);
+}
+
+@media only screen and (max-width: 768px) {
+    #navbar-logo {
+        display: none !important;
+    }
+    
+    #title-below {
+        margin-left: 14px !important;
+    }
+}

@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #00274C;
+}
+
+.container .main-card {
+    background: transparent;
+    border: none;
+}
+
+.school-title {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    color: white;
+}
+
+.border-title {
+    border: 1px solid #FFFFFF;
+    margin-top: -6px;
+}
+
+#title-below {
+    font-family: cinzel,serif;
+    font-weight: normal;
+    font-size: 12.5px;
+    letter-spacing: 0.4em;
+}
+
+#logout {
+    color: white;
+    text-decoration: none;
+}
+
+.row-header {
+    height: auto;
+}
+
+div.nav-col {
+    padding: 0;
+    display: inline-block;
+    width: auto;
+}
+
+div.nav-col a{
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+    color: #00274C;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#profile-nav:hover {
+    background-color: #607274;
+    color: white;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.container-header {
+    background-image: url("../images/LoginBackground.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 65vh;
+}
+
+.table-responsive {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+  }
+
+.table-responsive .table {
+    width: max-content;
+    min-width: 100%;
+    border-collapse: collapse;
+}
+
+.table-responsive .table .table-header {
+    background-color: #00274C;
+}
+
+.table-responsive .table .table-header th {
+    color: white;
+    font-weight: normal;
+    text-align: center;
+    overflow: hidden;
+}
+
+.table-responsive .table .table-body td {
+    overflow: hidden;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 768px) {
+    #navbar-logo {
+        display: none !important;
+    }
+    
+    #section-text {
+        margin-top: -10vh;
+    }
+
+    nav div.container{
+        margin-left: -18vh;
+    }
+
+    div.nav-col {
+        display: flex !important;
+        text-align: center !important;
+        justify-content: center !important;
+        margin: 0 !important;
+    }
+    
+    #logout-container {
+        margin-left: 10vh !important;
+    }
+    
+    #title-below {
+        font-family: cinzel,serif;
+        font-weight: normal;
+        font-size: 12.5px;
+        letter-spacing: 0.3em;
+    }
+    
+}
